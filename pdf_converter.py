@@ -79,7 +79,7 @@ def convert_excel_to_pdf():
 # Crear la ventana principal
 root = tk.Tk()
 root.title("Convertidor a PDF")
-root.geometry("400x300")
+root.geometry("400x200")
 
 # Crear botones para cada opción de conversión
 btn_image = tk.Button(root, text="Convertir Imagen a PDF", command=convert_image_to_pdf)
